@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Asil İnşaat Yapı & Yalıtım</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Asil_Insaat.Web.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="~/AsilSite/assets/favicon/AsilIcon.ico" />
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="~/AsilSite/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="~/AsilSite/assets/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="~/AsilSite/assets/css/owl.css">
+    <link rel="stylesheet" href="~/AsilSite/assets/css/animate.css">
+    <link rel="stylesheet" href="~/AsilSite/assets/css/Resim.css">
+
+</head>
+<body >
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <div class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <ul class="info">
+                        <li><i class="fa fa-envelope"></i><a href="mailto:asilinsaatyapiyalitim@gmail.com" style="color:black;">asilinsaatyapiyalitim@gmail.com</a> </li>
+                        <li><i class="fa fa-phone"></i><a href="tel:05322251249" style="color:black;">0(532) 225 12 49</a>  </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/asilinsaatelazig/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky" style="background-color:#FFDE59;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                            <div class="left-image">
+                                <img src="~/AsilSite/assets/images/asillogo.png" alt="" style="padding: 8px;">
+
+                            </div>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+
+                            <li><a class="navbar-brand" asp-controller="Home" asp-action="Index"></i> Anasayfa</a></li>
+                            <li><a class="navbar-brand" asp-controller="Home" asp-action="Hakkimizda">Hakkımızda</a></li>
+                            <li><a class="navbar-brand" asp-controller="Home" asp-action="Detay" >Çalışma Alanlarımız</a></li>
+                            <li><a class="navbar-brand" asp-controller="Home" asp-action="Referans" >Referanslarımız</a></li>
+                            <li><a asp-controller="Home" asp-action="Iletisim"><i class="fa fa-phone"></i> bize Ulaşın!</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    @RenderBody()
+
+
+    <footer>
+        <div class="container">
+            <div class="col-lg-8">
+                <p>
+                    Copyright ©  2024 <a asp-area="Admin" asp-controller="Auth" asp-action="Giris" target="_blank">Asil</a> İnşaat Yapı & Yalıtım. Tüm Hakları Saklıdır.
+
+                    Tasarım: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo ,</a> <a href="https://twitter.com/mrtcnasl" target="_blank">  Mertcan ASİL</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/AsilSite/vendor/jquery/jquery.min.js"></script>
+    <script src="~/AsilSite/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/AsilSite/assets/js/isotope.min.js"></script>
+    <script src="~/AsilSite/assets/js/owl-carousel.js"></script>
+    <script src="~/AsilSite/assets/js/counter.js"></script>
+    <script src="~/AsilSite/assets/js/custom.js"></script>
+
+</body>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+
+
+
+@await RenderSectionAsync("Scripts", required: false)
+</html>

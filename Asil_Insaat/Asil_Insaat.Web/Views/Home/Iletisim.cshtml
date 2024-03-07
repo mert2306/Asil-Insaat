@@ -1,0 +1,95 @@
+﻿
+<div class="contact section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4">
+                <div class="section-heading text-center">
+                    <h3 style="color:darkorange;">| Bİze Ulaşın</h3>
+                    <h2>Bir Telefon Kadar Uzağınızdayız!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div id="map">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.0779072898763!2d39.22200547587992!3d38.6700775600851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4076c0779acaee81%3A0xf2bb2140a85327f!2zU2FyYXlhdGlrLCBBZG5hbiBPcmFrw6fEsW_En2x1IENkLiBObzoyMiBEOmEsIDIzMTAwIEVsw6J6xLHEnyBNZXJrZXovRWxhesSxxJ8!5e0!3m2!1str!2str!4v1709749220983!5m2!1str!2str" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="item phone">
+                            <img src="~/AsilSite/assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                            <h6><a href="tel:05322251249" style="color:black;">0(532) 225 12 49</a> <br><span>Telefon Numaramız</span></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="item email">
+                            <img src="~/AsilSite/assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                            <h6>Email Adresimiz <br><span>asilinsaatyapiyalitim@gmail.com</span></h6>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="https://www.instagram.com/asilinsaatelazig/" target="_blank"><img src="~/AsilSite/assets/images/instagram.png" alt="" style="max-width: 52px;"></a>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="">
+                        <a href="https://www.instagram.com/asilinsaatelazig/" target="_blank"><img src="~/AsilSite/assets/images/facebook.png" alt="" style="max-width: 52px;"></a>
+                    </div>
+                </div>
+             
+            </div>
+            <div class="col-lg-5">
+                <form id="contact-form" asp-controller="Home" asp-action="Iletisim" method="post" class="contact-form">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <fieldset>
+                                <label for="adSoyad">İsim Soyisim</label>
+                                <input type="text" name="AdiSoyadi" id="AdiSoyadi" placeholder="İsim Soyisim" autocomplete="on" required>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                            <fieldset>
+                                <label for="mail">E-Mail</label>
+                                <input type="email" name="Email" id="" placeholder="E-mail Adresiniz..." autocomplete="on" required>
+                            </fieldset>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <fieldset>
+                                <label for="konu">Konu</label>
+                                <input type="text" name="Konu" id="subject" placeholder="Konu" autocomplete="on">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                            <fieldset>
+                                <label for="mesaj">Mesaj</label>
+                                <textarea name="Mesaj" id="Mesaj" placeholder="Mesajınız"></textarea>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                            <fieldset>
+                                <button type="submit" id="form-submit" class="orange-button">Mesaj Gönder </button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="back" class="mb-2 text-center">
+            @if (ViewBag.Succes != null)
+            {
+                <h5 class="text-success">@ViewBag.Succes</h5>
+            }
+            @if (ViewBag.Error != null)
+            {
+                <h5 class="text-danger">@ViewBag.Error</h5>
+            }
+        </div>
+    </div>
+</div>

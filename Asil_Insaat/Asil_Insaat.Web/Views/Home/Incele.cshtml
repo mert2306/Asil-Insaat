@@ -1,0 +1,83 @@
+﻿@model YaziViewModel
+
+<div class="page-heading header-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <span class="breadcrumb"><a href="#">Çalışma </a>  Alanlarımız</span>
+                <h3>@Model.Baslik</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="single-property section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="main-image">
+                    <img src="~/images/@Model.Resim.FileName" alt="">
+                </div>
+
+                <div class="main-content">
+                    <span class="category ">@Model.Baslik</span>
+                    <br />
+                    <br />
+
+                    <p>
+                        @Model.Icerik
+                    </p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Ne Yapıyoruz?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Üç yılı aşkın geniş deneyimizle birlikte, <a href="https://www.grada.com.tr/tr/index.html" target="_blank">Grada</a> markasının bölge distribütörü olarak yalıtım alanında Elazığ ve bölgemizde sağlığınız için çalışıyoruz.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Neden Epoksi?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Genellikle iki bileşenli olan epoksiler, diğer termoset plastikler gibi belli süre sonra sıvı halden katı hale geçer ve takibeden bir iki hafta içinde olgunlaşarak nihai sertliğe ulaşır. Cam veya karbon elyafı ile epoksi kombinasyonu mükemmel mekanik dayanıklılığa sahiptir. Bu yüzden uzay ve havacılık teknolojilerinde ve denizcilik alanında çok kullanılır. <a href="https://tr.wikipedia.org/wiki/Epoksi" target="_blank">Epoksi</a>, inşaat alanında da yaygın kullanılan bir malzemedir.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="info-table">
+                    <ul>
+                        <li>
+                            <img src="~/AsilSite/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
+                            <h4>Sözleşme<br><span>İşe başlamadan Önce</span></h4>
+                        </li>
+                        <li>
+                            <img src="~/AsilSite/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
+                            <h4>Ödeme<br><span>%50 peşinat</span></h4>
+                        </li>
+                        <li>
+                            <img src="~/AsilSite/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
+                            <h4>Garanti<br><span>5 Yıllık Garanti</span></h4>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

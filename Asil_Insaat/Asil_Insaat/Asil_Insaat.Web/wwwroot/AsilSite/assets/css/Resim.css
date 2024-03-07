@@ -1,0 +1,16 @@
+﻿
+.div img {
+    filter: saturate(25%);
+    width: 71%;
+    border: 2px solid whitesmoke;
+    height:150%;
+    object-fit: cover;
+    border-radius:3px;
+    transition: all ease 0.4s;
+    cursor:pointer;
+}
+
+.div img:hover{
+    filter: saturate(100%);
+    width: 100%;
+}

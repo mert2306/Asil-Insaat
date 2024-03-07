@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Asil_Insaat.Web
+build_property.RootNamespace = Asil_Insaat.Web
+build_property.ProjectDir = C:\Users\melik\Desktop\Asil İnşaat Yapı Yalıtım\Asil_Insaat\Asil_Insaat.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\melik\Desktop\Asil İnşaat Yapı Yalıtım\Asil_Insaat\Asil_Insaat.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Auth/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxHaXJpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Kategori/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2F0ZWdvcmlcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Kategori/Güncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2F0ZWdvcmlcR8O8bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Kategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Kategori/KategoriSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2F0ZWdvcmlcS2F0ZWdvcmlTaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Yazi/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWWF6aVxFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Yazi/Güncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWWF6aVxHw7xuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Yazi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWWF6aVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/Views/Yazi/YaziSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWWF6aVxZYXppU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Areas/Admin/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Home/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Home/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIYWtraW1pemRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Home/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbGV0aXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Home/Incele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmNlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Home/Referans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWZlcmFucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melik/Desktop/Asil İnşaat Yapı Yalıtım/Asil_Insaat/Asil_Insaat.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hx2j1mbzin
